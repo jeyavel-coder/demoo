@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+   <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+   <div class="tesla">
+    <img src="https://pngimg.com/uploads/tesla_logo/tesla_logo_PNG17.png" alt=""></div>
+    <a class="navbar-brand" href="#" >Tesla Inc</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Models</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            All Models
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Model s</a></li>
+            <li><a class="dropdown-item" href="#">Model 3</a></li>
+            <li><a class="dropdown-item" href="#">Model x</a></li>
+            <li><a class="dropdown-item" href="#">Model y</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Search</a></li>
+          </ul>
+        </li>
+        {{!-- <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li> --}}
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+{{!-- carousel images starting  --}}
+
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://images3.alphacoders.com/102/1027397.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://images6.alphacoders.com/942/thumb-1920-942554.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://wallpapercave.com/wp/wp10314294.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+<main id="main">
+
+    <!-- ======= Featured Services Section ======= -->
+    <section id="featured-services" class="featured-services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4 class="title"><a href="">Magni Dolores</a></h4>
+              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+              <div class="icon"><i class="bx bx-world"></i></div>
+              <h4 class="title"><a href="">Nemo Enim</a></h4>
+              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Featured Services Section -->
+  </body>
+</html>

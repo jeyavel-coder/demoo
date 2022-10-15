@@ -1,0 +1,14 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: blue;
+}
+
+a {
+  color: #00B7FF;
+}
+
+img, svg {
+  vertical-align: middle;
+  width: 30px;
+}
